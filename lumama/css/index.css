@@ -1,0 +1,312 @@
+/* 初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 100%;
+}
+@media only screen and (max-width: 1920px), only screen and (max-device-width: 1920px) {
+  html,
+  body {
+    font-size: 300px;
+  }
+}
+@media only screen and (max-width: 1280px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 200px;
+  }
+}
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+  html,
+  body {
+    font-size: 160px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 125px;
+  }
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+  html,
+  body {
+    font-size: 120px;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 112.5px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 623px), only screen and (max-device-width: 623px) {
+  html,
+  body {
+    font-size: 97.34375px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 93.75px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 84.375px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (max-width: 412px), only screen and (max-device-width: 412px) {
+  html,
+  body {
+    font-size: 64.375px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 37.5px;
+  }
+}
+body {
+  background-color: #f1f1f1;
+}
+.header {
+  background-color: #f7f7f7;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  font-size: 0.19rem;
+  text-align: center;
+}
+.header span {
+  font-size: 0.14rem;
+  float: left;
+  padding-left: 0.12rem;
+  color: #d3079e;
+}
+.header > img {
+  margin-top: 0.10rem;
+  margin-right: 0.10rem;
+  float: right;
+  width: 0.24rem;
+  height: 0.24rem;
+  vertical-align: middle;
+}
+.carousel .indexer ul li {
+  margin-left: 0.10rem;
+}
+.nav {
+  background-color: #FFFFFF;
+}
+.nav ul li {
+  float: left;
+  width: 2.1333rem;
+  padding: 0.04rem 0.04rem;
+}
+.nav ul li img {
+  width: 100%;
+}
+.service {
+  background-color: #f7f7f7;
+  margin-bottom: 0.16rem;
+}
+.service ul li {
+  float: left;
+  width: 1.6rem;
+  height: 1.14rem;
+  border: 0.005rem solid #dddddd;
+}
+.submenu ul {
+  border-bottom: 0.01rem solid #DDDDDD;
+}
+.submenu ul li {
+  float: left;
+  width: 3.2rem;
+}
+.submenu ul li:nth-child(1) {
+  border-right: 0.01rem solid #cdcdcd;
+}
+.submenu ul li:nth-child(2) {
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #DDDDDD;
+}
+.submenu span {
+  display: block;
+  background-color: #f7f7f7;
+  height: 0.15rem;
+}
+.hot p {
+  font-size: 0.18rem;
+  color: #555555;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  padding-left: 0.16rem;
+  border-bottom: 0.01rem solid #DDDDDD;
+}
+.hot ul li {
+  border-bottom: 0.01rem solid #DDDDDD;
+}
+.vacation {
+  margin-top: 0.15rem;
+  font-size: 0.14rem;
+}
+.vacation .vacation_title {
+  border-top: 0.01rem solid #DDDDDD;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  background-color: #f7f7f7;
+}
+.vacation .vacation_title .title li {
+  text-align: center;
+  float: left;
+  width: 3.2rem;
+}
+.vacation .vacation_title .title li span {
+  display: inline-block;
+  height: 0.44rem;
+  width: 0.64rem;
+}
+.vacation .vacation_title .title li .left {
+  margin-left: 0.20rem;
+  color: #d3079e;
+  border-bottom: 0.02rem solid #d3079e;
+}
+.vacation .content li {
+  background-color: #ffffff;
+  margin-bottom: 0.16rem;
+  border-bottom: 0.01rem solid #DDDDDD;
+}
+.vacation .content li a {
+  display: block;
+  margin-bottom: 0.1rem;
+}
+.vacation .content li a span {
+  display: block;
+  margin-top: 0.05rem;
+  font-size: 0.14rem;
+}
+.vacation .content li a p {
+  font-size: 0.18rem;
+  color: #555555;
+  margin-top: 0.1rem;
+}
+.vacation .checkmore {
+  background-color: #FFFFFF;
+  margin-bottom: 0.15rem;
+}
+.vacation .checkmore a {
+  text-align: center;
+  line-height: 0.30rem;
+  display: block;
+  font-size: 0.12rem;
+  height: 0.30rem;
+  border-bottom: 0.01rem solid #DDDDDD;
+  color: #555555;
+}
+.vacation .checkmore a strong {
+  color: #969696;
+  font-weight: 900;
+}
+.loginbar {
+  background-color: #d3079e;
+}
+.loginbar a {
+  color: #FFFFFF;
+  float: left;
+  display: block;
+  height: 0.30rem;
+  font-size: 0.16rem;
+  line-height: 0.30rem;
+}
+.loginbar a:nth-child(1) {
+  margin-left: 0.10rem;
+}
+.loginbar a:nth-child(2) {
+  margin-left: 0.20rem;
+}
+.loginbar a:nth-child(3) {
+  float: right;
+  margin-right: 0.10rem;
+}
+/*# sourceMappingURL=index.css.map */

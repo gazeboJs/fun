@@ -1,0 +1,200 @@
+@import url("./base.less");
+body {
+    background-color: #f1f1f1;
+}
+
+//欢迎条
+.header {
+    background-color: #f7f7f7;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    font-size: 0.19rem;
+    text-align: center;
+    span {
+        font-size: 0.14rem;
+        float: left;
+        padding-left: 0.12rem;
+        color: #d3079e;
+    }
+    >img {
+        margin-top: 0.10rem;
+        margin-right: 0.10rem;
+        float: right;
+        width: 0.24rem;
+        height: 0.24rem;
+        vertical-align: middle;
+    }
+}
+
+//轮播图
+.carousel {
+    .indexer {
+        ul {
+            li {
+                margin-left: 0.10rem;
+            }
+        }
+    }
+}
+
+//导航
+.nav {
+    background-color: #FFFFFF;
+    ul {
+        li {
+            float: left;
+            width: 2.1333rem;
+            padding: 0.04rem 0.04rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+//服务栏
+.service {
+    background-color: #f7f7f7;
+    margin-bottom: 0.16rem;
+    ul {
+        li {
+            float: left;
+            width: 1.6rem;
+            height: 1.14rem;
+            border: 0.005rem solid #dddddd;
+        }
+    }
+}
+
+//驴悦亲子
+//线条BUG
+.submenu {
+    ul {
+        border-bottom: 0.01rem solid #DDDDDD;
+        li {
+            float: left;
+            width: 3.2rem;
+        }
+        li:nth-child(1) {
+            border-right: 0.01rem solid #cdcdcd;
+        }
+        li:nth-child(2) {
+            box-sizing: border-box;
+            border-bottom: 0.01rem solid #DDDDDD;
+        }
+    }
+    span {
+        display: block;
+        background-color: #f7f7f7;
+        height: 0.15rem;
+    }
+}
+
+//热门活动
+.hot {
+    p {
+        font-size: 0.18rem;
+        color: #555555;
+        height: 0.35rem;
+        line-height: 0.35rem;
+        padding-left: 0.16rem;
+        border-bottom: 0.01rem solid #DDDDDD;
+    }
+    ul {
+        li {
+            border-bottom: 0.01rem solid #DDDDDD;
+        }
+    }
+}
+
+//度假区
+.vacation {
+    margin-top: 0.15rem;
+    font-size: 0.14rem;
+    .vacation_title {
+        border-top: 0.01rem solid #DDDDDD;
+        height: 0.44rem;
+        line-height: 0.44rem;
+        background-color: #f7f7f7;
+        .title {
+            li {
+                text-align: center;
+                float: left;
+                width: 3.2rem;
+                span {
+                    display: inline-block;
+                    height: 0.44rem;
+                    width: 0.64rem;
+                }
+                .left {
+                    margin-left: 0.20rem;
+                    color: #d3079e;
+                    border-bottom: 0.02rem solid #d3079e;
+                }
+                .right {}
+            }
+        }
+    }
+    .content {
+        li {
+            background-color: #ffffff;
+            margin-bottom: 0.16rem;
+            border-bottom: 0.01rem solid #DDDDDD;
+            a {
+                display: block;
+                margin-bottom: 0.1rem;
+                img {}
+                span {
+                    display: block;
+                    margin-top: 0.05rem;
+                    font-size: 0.14rem;
+                }
+                p {
+                    font-size: 0.18rem;
+                    color: #555555;
+                    margin-top: 0.1rem;
+                }
+            }
+        }
+    }
+    .checkmore {
+        background-color: #FFFFFF;
+        margin-bottom: 0.15rem;
+        a {
+            text-align: center;
+            line-height: 0.30rem;
+            display: block;
+            font-size: 0.12rem;
+            height: 0.30rem;
+            border-bottom: 0.01rem solid #DDDDDD;
+            color: #555555;
+            strong {
+                color: #969696;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+//登录条
+.loginbar {
+    background-color: #d3079e;
+    a {
+        color: #FFFFFF;
+        float: left;
+        display: block;
+        height: 0.30rem;
+        font-size: 0.16rem;
+        line-height: 0.30rem;
+    }
+    a:nth-child(1) {
+        margin-left: 0.10rem;
+    }
+    a:nth-child(2) {
+        margin-left: 0.20rem;
+    }
+    a:nth-child(3) {
+        float: right;
+        margin-right: 0.10rem;
+    }
+}
